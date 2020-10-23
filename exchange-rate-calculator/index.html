@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exchange Rate Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <img src="images/dollar.png" alt="dollar-image">
+    <h1>Exchange Rate Calculator</h1>
+    <p>Pick a currency and input the amount to get the converted amount</p>
+
+    <div class="container">
+      <div class="currency">
+        <input type="number" id="amount-one" placeholder="0">
+        <select id="currency-one">
+          <option value="USD" selected>USD</option>
+          <option value="CAD"> CAD</option>
+          <option value="EUR">EUR</option>
+        </select>
+      </div>
+      <div class="currency">
+        <input type="number" id="amount-two" placeholder="0">
+        <select id="currency-two">
+          <option value="USD">USD</option>
+          <option value="CAD" selected> CAD</option>
+          <option value="EUR">EUR</option>
+        </select>
+      </div>
+    </div>
+    <div class="rate" id="rate"></div>
+  </body>
+
+  <footer>    
+    <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</html>
