@@ -14,7 +14,7 @@ const newYearTime = new Date(`Janurary 01 ${currentYear + 1} 00:00:00`);
 const christmasTime = new Date(`December 25 ${currentYear} 00:00:00`);
 const nextChristmasTime = new Date(`December 25 ${currentYear + 1} 00:00:00`);
 const valentineTime = new Date(`February 10 ${currentYear} 00:00:00`);
-const nextValentineTime = new Date(`February 10 ${currentYear + 1} 00:00:00`);
+const nextValentineTime = new Date(`February 14 ${currentYear + 1} 00:00:00`);
 
 // Set background year
 year.innerText = currentYear + 1;
